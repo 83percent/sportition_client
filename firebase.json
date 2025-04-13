@@ -1,0 +1,49 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sporti-b4f92",
+          "appId": "1:68814527816:android:6b29b64eba807b17d5277d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "sporti-b4f92",
+          "appId": "1:68814527816:ios:34c3c8caef63b47dd5277d",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "sporti-b4f92",
+          "appId": "1:68814527816:ios:34c3c8caef63b47dd5277d",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sporti-b4f92",
+          "configurations": {
+            "android": "1:68814527816:android:6b29b64eba807b17d5277d",
+            "ios": "1:68814527816:ios:34c3c8caef63b47dd5277d",
+            "macos": "1:68814527816:ios:34c3c8caef63b47dd5277d",
+            "web": "1:68814527816:web:77c06d5be6159c5ad5277d",
+            "windows": "1:68814527816:web:0f53cc86a94db8fed5277d"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
